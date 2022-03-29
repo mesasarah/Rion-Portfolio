@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kings&family=Noto+Serif:ital@1&family=Redressed&family=Shizuru&display=swap');
+
+html, body{
+	margin: 0px;
+	height: 100%;
+	background-image: url("back2.png");
+	
+}
+
+.head{
+	
+	padding: 10px;
+	margin: 0px;
+	color: #ffffff;
+}
+
+.title-r
+{
+	padding-right: 100px;
+	padding-left: 50px;
+	background-color: transparent;
+	border: none;
+	color: white;
+	display: inline-block;
+	align-items: flex-end;
+	font-style: italic;
+	font-size: 28px;
+	position: absolute;
+	left: 0;
+	font-family: 'Redressed', cursive;
+	text-shadow: 3px 3px 6px black;
+}
+
+.b{
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 8px;
+	background-color: transparent;
+	border: none;
+	color: white;
+	text-align: left;
+	display: inline-block;
+	align-items: flex-end;
+	align-content: center;
+	font-family: 'Shizuru', cursive;
+	font-size: 20px;
+	text-shadow: 2px 2px black;
+	padding-bottom: 8px;
+}
+.b:hover{
+	box-shadow: inset 100px 0 0 0 #ffffff;
+	opacity: 0.5;
+	border-radius: 5px;
+	color: black;
+	padding-top: 10px;
+}
+.left{
+	position: absolute;
+	right: 0;
+	padding-right: 50px;
+
+}
+.main{
+	
+	padding-left: 350px;
+	padding-top: 80px;
+}
+
+.background{
+	background-color: #f99192;
+	border-radius: 10px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 1px;
+	margin-bottom: 1px;
+	margin: 50px;
+	margin-top: 20px;
+	box-shadow: 5px 5px 10px black;
+}
+.center{
+	text-align: center;
+	align-content: center;
+}
+.flex{
+	display: flex;
+}
+
+.txtfont{
+	color: #8ad6cc;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 50px;
+	text-shadow: 2px 2px 4px black;
+}
+.color1{
+	padding-right: 20px;
+	padding-left: 20px;
+	background-color: transparent;
+	border: none;
+	color: white;
+	display: inline-block;
+	align-items: flex-end;
+	align-content: center;
+	font-family: 'Shizuru', cursive;
+	font-size: 20px;
+	text-shadow: 2px 2px black;
+	padding-bottom: 10px;
+}
+
+
+
+
+
+.foot{
+
+	margin: 0px;
+	position: absolute;
+	top: 630px;
+	bottom: 0;
+	right: 0;
+	padding-right: 30px;
+
+}
+
+.f{
+	padding-right: 30px;
+	padding-left: 30px;
+	background-color: transparent;
+	border: none;
+	text-align: center;
+	display: inline-block;
+	align-items: flex-end;
+	align-content: center;
+	font-family: 'Shizuru', cursive;
+	font-size: 20px;
+	color: darkred;
+	text-shadow: 6px 6px 20px darkred;
+}
+.f:hover{
+	
+	color: yellow;
+
+}
+
+
+
